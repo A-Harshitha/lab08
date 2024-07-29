@@ -1,0 +1,88 @@
+.main {
+    max-width: 400px;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+  }
+  
+  .input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .inputButtons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  
+  input[type="submit"],
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button {
+    background-color: #6c757d;
+  }
+  
+  input[type="submit"]:hover,
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  button[type="button"] {
+    background-color: #dc3545;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #c82333;
+  }
+  
+  .displayInput {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .todoItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todoText {
+    flex: 1;
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .actionButtons {
+    display: flex;
+    gap: 10px;
+  }
+  
